@@ -8,12 +8,6 @@
     --text: hsl(214, 17%, 51%);
 }
 
-/* *, *::after, *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
-
 /* typography */
 
 body {
@@ -87,12 +81,21 @@ button {
 .author {
     display: flex;
     align-items: center;
+    margin: 10px 0px;
 }
 
 .author .img-writer {
     width: 5em;
     border-radius: 50%;
     margin-right: 1.5rem;
+}
+
+.author-info p {
+    margin: 10px 0rem 0rem;
+    font-size: 1rem;
+}
+.author-info h2 {
+    margin: 0;
 }
 
 .share {
@@ -114,30 +117,74 @@ button {
 }
 
 .share-options {
+
+    /* --scale: 0;
+    --translateX: -50%;
+    --translateY: 0; */
+
     position: absolute;
     bottom: 100px;
-    left: -200%;
+    left: -100%;
     background-color: var(--headings);
     display: flex;
     align-items: center;
     gap: 1.5em;
     border-radius: 10px;
-    padding: 1rem 3rem;
+    padding: 1.5rem 3.5rem;
     font-size: 20px;
     color: var(--bg);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease;
 }
 
+.share-options.active {
+    visibility: visible;
+    opacity: 1;
+    left: -200%;
+    transition: all 0.5s ease, visibility 0s linear 0s;
+}
 
+.share-options span {
+    color: var(--bg);
+    font-size: 14px;
+    letter-spacing: 5px;
+}
 
-@media (max-width: 768px) {
+.share-options img {
+    cursor: pointer;
+    height: 1.5rem;
+}
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width: 768px) {
     .card {
         display: flex;
         flex-direction: column;
         width: 80%;
-        /* height: ; */
     }
 
     .imgleft {
         border-radius: 1rem 1rem 0rem 0rem;
     }
+
+    .share-options {
+        position: absolute;
+        /* left: -300px; */
+        /* bottom: 100px; */
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        opacity: 1;
+    }
+
+    .share-options.active {
+        position: static;
+        position: -200px;
+        bottom: 20px;
+        scale: 1.5;
+        z-index: 999;
+    }
+
 }
