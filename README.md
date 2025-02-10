@@ -1,8 +1,6 @@
-![Screenshot from 2025-02-10 13-40-58](https://github.com/user-attachments/assets/5579ba6a-a215-46a6-be44-d01a7b5045ed)# Frontend Mentor - Article preview component solution
+## This is a solution to the [Article preview component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-This is a solution to the [Article preview component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
-## Table of contents
+### Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
