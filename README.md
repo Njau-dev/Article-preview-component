@@ -1,4 +1,4 @@
-# Frontend Mentor - Article preview component solution
+![Screenshot from 2025-02-10 13-40-58](https://github.com/user-attachments/assets/5579ba6a-a215-46a6-be44-d01a7b5045ed)# Frontend Mentor - Article preview component solution
 
 This is a solution to the [Article preview component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/article-preview-component-dYBN_pYFT). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -26,12 +26,13 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot.jpg)
+![Article Preview component](https://github.com/user-attachments/assets/ef9afb6f-df30-44fd-9e09-0b725f93ea89)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here][(https://your-solution-url.com](https://github.com/Njau-dev/Article-preview-component))
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/Njau-dev/Article-preview-component))
+- Live Site URL: [live site URL](https://njau-dev.github.io/Article-preview-component/)
 
 ## My process
 
